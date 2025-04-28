@@ -12,7 +12,7 @@ void qsortDescending(int* mas, int size) {
             i++;
         }
         while (mas[j] < mid) {
-            j--;
+            j--; 
         }
         if (i <= j) {
             int tmp = mas[i];
